@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    background: rgb(17, 17, 17);
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-decoration: none;
+    
+    
+    
+    
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #353535;
+    font-size: 1rem;
+    color: #fff;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 100ms;
+    overflow: hidden;
+    padding:3px;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+  
+.card:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+    border: 2px solid white
+ }
+
+
+ .basic-grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: repeat(12, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 100px;
+ }
+ a{
+    text-decoration: none;
+ }
+
+ .fs{
+    background-color: rgb(68, 68, 34);
+ }
+
+ .bc{
+    background-color: rgb(33, 69, 45);
+ }
+
+ .heading{
+    font-size:3em;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    height: 230x;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(187, 182, 182);
+    margin-bottom: 30px;
+   
+    
+ }
+
+ .one   {
+    
+    height: 23px;
+    width: 90px;
+    background-color:rgb(68, 68, 34);
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.two {
+    
+    height: 23px;
+    width: 90px;
+    background-color:#353535;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .three {
+    
+    height: 23px;
+    width: 90px;
+    background-color: rgb(33, 69, 45);
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+ }
+
+ .legend{
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right:100px;
+    
+ }
+
+ .icon-bar {
+    position: fixed;
+    top: 50%;
+    left:95%;
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #262525;
+  }
+  .linkedin {
+    background: #4e4e4e;
+    color: white;
+  }
+  
+  .youtube {
+    background: #4e4e4e;
+    color: white;
+  }
+  
+  ::-webkit-scrollbar{
+    width: 0;
+  }
+
+ .footer{
+    width: 87em;
+    height: 100px;
+    background-color: rgb(19, 18, 18);
+    margin-top: 100px;
+    border: solid rgb(40, 39, 39);
+ }
+
+ @media only screen and (max-width: 800px){
+
+ 
+ .legend{
+    padding-left: 20px;
+    padding-top: 0;
+     
+ }
+
+ .heading{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size:x-large;
+    padding-bottom: 0;
+ }
+ .one {
+    width:150px;
+    font-size: 7px;
+
+ }
+ .two{
+    width: 150px;
+    font-size: 7px;
+ }
+ .three{
+    width: 150px;
+    font-size: 7px;
+ }
+ .basic-grid{
+    padding-right: 0;
+    padding-top: 30px;
+    margin-right: 35px;
+
+ }
+.icon-bar{
+    top:27%;
+    left: 0%;
+    width: 30px;
+    height: 10px;
+    
+}
+
+.linkedin{
+    background-color: rgb(26, 26, 26);
+
+}
+.youtube{
+    background-color:rgb(26, 26, 26) ;
+}
+
+
+
+}
+
